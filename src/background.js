@@ -13,7 +13,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     if (request.action === "showNotification") {
         chrome.notifications.create({
             type: "basic",
-            iconUrl: "icon48.png", // Adjust path to your icon
+            iconUrl: "assets/icon48.png", // Adjust path to your icon
             title: request.title,
             message: request.message
         });

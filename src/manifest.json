@@ -13,7 +13,7 @@
   "action": {
     "default_popup": "popup.html"
   },
-  "permissions": ["contextMenus", "activeTab"],
+  "permissions": ["activeTab"],
   "background": {
     "service_worker": "background.js"
   },
